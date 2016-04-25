@@ -4,5 +4,7 @@ Google Code Jam Beta 2008 Competition
 
 **List of Problems for this round**
 
-1. Problem A: Alien Numbers
+**Problem A:** Alien Numbers
+
+**Problem B:** Always Turn Left
 
