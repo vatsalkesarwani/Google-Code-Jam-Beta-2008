@@ -10,3 +10,4 @@ Google Code Jam Beta 2008 Competition
 
 **Problem C:** Egg Drop
 
+**Problem D:** Shopping Plan
