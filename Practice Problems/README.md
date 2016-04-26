@@ -8,3 +8,5 @@ Google Code Jam Beta 2008 Competition
 
 **Problem B:** Always Turn Left
 
+**Problem C:** Egg Drop
+
