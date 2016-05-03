@@ -3,6 +3,12 @@
 #### Problem C: Egg Drop
 Google Code Jam Beta 2008 Competition
 
+**Usage Instructions:**
+
+* Download and put all these files in a folder
+* Use the following command to compile the java programs: javac Main.java
+* Use the following command to run the java programs: java Main < C-small-practice.in
+
 **Problem Details:** https://code.google.com/codejam/contest/32003/dashboard#s=p2 Also, alternatively given below.
 
 **Problem:**
