@@ -3,6 +3,12 @@
 #### Problem B: Always Turn Left
 Google Code Jam Beta 2008 Competition
 
+**Usage Instructions:**
+
+* Download and put all these files in a folder
+* Use the following command to compile the java programs: javac Main.java
+* Use the following command to run the java programs: java Main < B-small-practice.in
+
 **Problem Details:** https://code.google.com/codejam/contest/32003/dashboard#s=p1 Also, alternatively given below.
 
 **Problem:**
