@@ -45,7 +45,7 @@ public class Main {
 			tempCounter = 0;
 			//noOfDigits reset to one for each case
 			noOfDigits = 1;
-			//this while loop is to find the number of digits in the alien_number in target_language
+			//this "while" loop is to find the number of digits in the alien_number in target_language
 			while(intermedCounter>=0) {
 				tempCounter = intermedCounter;
 				intermedCounter = intermedCounter - (caseDetail[2].length()-1)*(int)(Math.pow(caseDetail[2].length(),noOfDigits-1));
@@ -53,17 +53,20 @@ public class Main {
 			}
 			//total noOfDigits-1 digits as last while loop iteration increments noOfDigits by extra 1 
 			tempDigits = noOfDigits-1;
-			//this while loop is to iterate over all digits, one at a time
+			//this "while" loop is to iterate over all digits, one at a time
 			while(tempDigits>0) {
 				//index reset to zero for each digit
 				index = 0;
 				intermedCounter = tempCounter;
+				//this "while" loop is to iterate until the index of character to be at the current digit is found
 				while(intermedCounter >= 0) {
 					tempCounter = intermedCounter;
 					intermedCounter = intermedCounter - (int)Math.pow(caseDetail[2].length(),tempDigits-1);
 					index++;
 				}
+				//decrement index by 1 as last while loop iteration increments index by extra 1
 				index--;
+				//increment index by 1 if its the first digit of alien_number in target_language
 				if(tempDigits==(noOfDigits-1)) {
 					index++;
 				}
